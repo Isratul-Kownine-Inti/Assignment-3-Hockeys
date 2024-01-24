@@ -32,6 +32,7 @@
                         clifford: '#da373d',
                         'primary-color': '#FF4240',
                         'nav-color': '#424247',
+                        'common-text-color': '#FFFFFF99',
                     }
                 }
             }
@@ -98,27 +99,393 @@
         <!-- navbar end-->
 
         <!-- banner section start -->
-        <section class=" pt-6 lg:pt-12 relative mx-2">
-           <div class="" >
-            <img class="w-full lg:w-full" src="./Images/1.png" alt="">
-            <div class="">
-               <div class="absolute space-x-2 lg:space-x-4 -mt-20 ml-40 lg:-mt-32 lg:ml-8 ">
-                <i class="fa-solid fa-angle-left  text-white text-xl lg:text-3xl bg-[#131318] rounded-full p-2  lg:p-5"></i>
-                <i class="fa-solid fa-angle-right  text-white text-xl  lg:text-3xl bg-[#131318] rounded-full p-2 lg:p-5"></i>
-               </div>
-                <div class="text-white bg-[#131318] absolute rounded-xl w-full p-4 mt-6 lg:w-1/2 lg:p-8 lg:-mt-64 lg:right-10">
-                    <h4 class="text-xl lg:text-2xl font-extrabold mb-2 lg:mb-4 ">Meet all the heroes from the field</h4>
-                    <p class="lg:text-xl font-medium text-[#FFFFFF99]">Explore the roster of extraordinary hockey heroes who redefine the game
-                        with their prowess on the field, embodying the spirit of excellence and teamwork that makes every
-                        match a thrilling spectacle</p>
+        <section class="mt-16">
+
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full h-1/2">
+                    <img src="./Images/1.png" class="w-full" />
+                    <div
+                        class="absolute flex justify-start mt-64  transform -translate-y-1/2 left-5 right-5 top-1/2 space-x-4">
+                        <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+
+                <div class="text-white bg-[#131318] absolute rounded-xl w-full p-4 mt-6 lg:w-1/2 lg:-mb-64">
+                    <h4 class="text-xl lg:text-2xl font-extrabold mb-2 lg:mb-4 ">Meet all the heroes from the field
+                    </h4>
+                    <p class="lg:text-xl font-medium text-common-text-color">Explore the roster of extraordinary
+                        hockey
+                        heroes who redefine the game
+                        with their prowess on the field, embodying the spirit of excellence and teamwork that makes
+                        every
+                        match a thrilling spectacle.</p>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- banner end -->
+    </header>
+    <!-- header end -->
+
+    <main class="container lg:mx-auto">
+        <!-- professional hockey's club section -->
+
+        <section class=" pt-9 lg:pt-20 mx-6">
+
+            <div class="text-center border-y border-dashed border-gray-300">
+                <h2 class="text-2xl mb-4 lg:text-4xl font-extrabold lg:mb-6 pt-8">Professional Hockeys Club</h2>
+                <p class="font-medium pb-4 lg:w-1/2 lg:mx-96 text-gray-600 lg:pb-8">Embark on an extraordinary journey
+                    with our
+                    Professional Hockey Club, where skill
+                    and dedication converge to redefine the sport. Join a community of champions, united by a shared
+                    commitment to excellence and the pursuit of greatness on the ice</p>
+            </div>
+
+            <!-- progress -->
+            <div class=" flex flex-col mt-6 space-y-6 lg:flex-row lg:pt-12 lg:gap-6 text-center">
+                <!-- 87% progress -->
+                <div class="lg:mt-6">
+                    <div class="radial-progress rotate-180 text-primary-color"
+                        style="--value:87; --size:12rem; --thickness:1rem;" role="progressbar">
+                        <span class="rotate-180 font-extrabold text-3xl text-[#131318]">87%</span>
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-medium text-[#131318] mb-4">Prayer Facility</h3>
+                        <p class=" text-gray-600">Empowering champions with cutting-edge player facilities, where skill
+                            refinement meets unparalleled comfort for an elite hockey experience.</p>
+                    </div>
+                </div>
+                <!-- 95% progress -->
+                <div>
+                    <div class="radial-progress rotate-180 text-[#49D293]"
+                        style="--value:95; --size:12rem; --thickness:1rem;" role="progressbar">
+
+                        <span class="rotate-180  font-extrabold text-3xl text-[#131318]">95%</span>
+
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-medium text-[#131318] mb-4">Experienced Coach</h3>
+                        <p class=" text-gray-600">Guiding players to success, our experienced coach brings a wealth of
+                            knowledge and expertise, shaping champions on and off the ice.</p>
+                    </div>
+                </div>
+                <!-- 90% progress -->
+                <div>
+                    <div class="radial-progress rotate-180 text-[#FFBF46]"
+                        style="--value:90; --size:12rem; --thickness: 1rem;" role="progressbar">
+
+                        <span class="rotate-180  font-extrabold text-3xl text-[#131318]">90%</span>
+
+                    </div>
+                    <div class="mt-4">
+                        <h3 class="text-2xl font-medium text-[#131318] mb-4">Senior Player</h3>
+                        <p class=" text-gray-600">Unleashing veteran prowess on the rink, our senior player embodies
+                            leadership, skill, and a legacy of triumph in the world of hockey.</p>
+                    </div>
+                </div>
+                <!-- 80% progress -->
+                <div>
+                    <div class="radial-progress rotate-180 text-[#4C8DF1]"
+                        style="--value:80; --size:12rem; --thickness: 1rem;" role="progressbar">
+
+                        <span class="rotate-180  font-extrabold text-3xl text-[#131318]">80%</span>
+
+                    </div>
+                    <div class="mt-4 ">
+                        <h3 class="text-2xl font-medium text-[#131318] mb-4">Training Ground</h3>
+                        <p class=" text-gray-600">Our cutting-edge training ground is the crucible where dedication
+                            meets innovation, shaping the next generation of hockey champions.</p>
+                    </div>
                 </div>
             </div>
-         
-        </div>
-            
         </section>
-    </header>
 
+        <!-- program section -->
+        <section class="pt-16 mx-4">
+            <div class="text-center border-y border-dashed border-gray-300 p-5 lg:p-8">
+                <h2 class=" text-2xl lg:text-3xl font-extrabold text-[#131318] mb-4">Program Sections</h2>
+                <p class="text-gray-600 font-medium px-8 lg:px-96">Explore our diverse program sections tailored to
+                    cultivate
+                    skills, foster teamwork, and propel players
+                    through a comprehensive journey of development in the exhilarating realm of hockey.</p>
+            </div>
+
+            <div class="mt-12 w-full grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+
+                <div class="card  w-full  bg-base-100 shadow-xl image-full  ">
+                    <figure><img class="lg:w-full" src="./Images/2.png" alt="" /></figure>
+                    <div class="card-body lg:mt-20 lg:mx-8 ">
+                        <h2 class="card-title mb-4 text-white text-xl lg:text-3xl font-extrabold">Junior Program</h2>
+                        <p class=" text-white font-medium text-wrap mb-4">Immerse yourself in the thrilling world of
+                            hockey with our junior program, where passion
+                            meets skill development, fostering the next generation of champions on and off the ice.</p>
+                        <div class="">
+                            <button
+                                class="btn bg-primary-color text-white border-transparent px-6 font-bold text-xl mb-4">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card w-full bg-base-100 shadow-xl image-full ">
+                    <figure><img class="w-full" src="./Images/3.png" alt="" /></figure>
+                    <div class="card-body lg:mt-20 lg:mx-8 ">
+                        <h2 class="card-title mb-4 text-white text-xl lg:text-3xl font-extrabold">Teenager Program</h2>
+                        <p class=" text-white font-medium text-wrap mb-4">Unleash the potential of young talents on the
+                            rink with our Teenager Program, sculpting tomorrow's hockey stars through expert coaching,
+                            camaraderie, and a passion-driven journey to success.</p>
+                        <div class="">
+                            <button
+                                class="btn bg-primary-color text-white border-transparent px-6 font-bold text-xl mb-4">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" lg:col-span-2 card  w-full  bg-base-100 shadow-xl image-full ">
+                    <figure><img class=" w-full" src="./Images/4.png" alt="" /></figure>
+                    <div class="card-body lg:mx-8 justify-end items-baseline lg:mt-72">
+                        <h2 class="card-title mb-4 text-white text-xl lg:text-3xl font-extrabold">Professional Program
+                        </h2>
+                        <p class=" text-white font-medium lg:text-wrap mb-4 lg:w-2/5">Elevate your game to the highest
+                            level
+                            with our elite Professional Program, meticulously designed to refine skills, strategic
+                            prowess, and physical conditioning. Join a community of dedicated athletes committed to
+                            achieving excellence on the ice, where champions are forged and careers are propelled to new
+                            heights.</p>
+                        <div class="card-actions">
+                            <button
+                                class="btn bg-primary-color text-white border-transparent px-6 font-bold text-xl mb-4">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New products -->
+        <section class="pt-16 mx-4">
+            <div class="text-center border-y border-dashed border-gray-300 p-5 lg:p-8">
+                <h2 class=" text-2xl lg:text-3xl font-extrabold text-[#131318] mb-4">Our New Products</h2>
+                <p class="text-gray-600 font-medium px-8 lg:px-96">Explore the latest additions to our lineup, where
+                    cutting-edge technology meets the demands of the modern game. Our new products redefine performance
+                    and style, ensuring you're geared up to dominate every moment on the hockey arena.
+                </p>
+            </div>
+
+            <div class=" mt-5 grid grid-cols-1 lg:grid-cols-2 gap-6 w-full">
+
+                <div class="hero lg:w-full lg:h-3/4">
+                    <div class="hero-content flex-col lg:flex-row border-2 rounded-2xl px-10 py-6">
+
+                        <img src="./Images/5.png" class="lg:max-w-sm w-full rounded-lg lg:shadow-2xl pb-3" />
+                        <div>
+                            <div class="inline space-x-1 text-gray-400 font-medium">
+                                <i class="fa-solid fa-star text-[#F99808] "></i>
+                                <span class="px-2">5.0</span>
+                                <i class="fa-regular fa-eye "><span class="px-2">20</span></i>
+                                <i class="fa-regular fa-heart "><span class="px-2">200</span></i>
+                            </div>
+                            <h1 class="text-xl lg:text-2xl mt-3 text-[#131318] font-extrabold lg:w-1/2">World Cup Flags Football!</h1>
+                            <p class=" py-4 lg:py-6 font-medium text-gray-600">Elevate your fan experience with our exclusive
+                                World Cup Flags Hockey Jersey collection, showcasing your team pride in style.</p>
+
+                            <div class="flex flex-col lg:flex-grow lg:justify-between">
+                                <p class="text-primary-color font-extrabold text-xl lg:text-2xl">Price - $22.00</p>
+                                <p> <i class="fa-solid fa-cart-shopping text-gray-400 pr-2"></i>
+                                    <span class="text-gray-400 font-medium text-xl">Delivery Fee : Free</span></p>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero lg:w-full lg:h-3/4">
+                    <div class="hero-content flex-col lg:flex-row border-2 rounded-2xl px-10 py-6">
+
+                        <img src="./Images/5.png" class="lg:max-w-sm w-full rounded-lg lg:shadow-2xl pb-3" />
+                        <div>
+                            <div class="inline space-x-1 text-gray-400 font-medium">
+                                <i class="fa-solid fa-star text-[#F99808] "></i>
+                                <span class="px-2">5.0</span>
+                                <i class="fa-regular fa-eye "><span class="px-2">20</span></i>
+                                <i class="fa-regular fa-heart "><span class="px-2">200</span></i>
+                            </div>
+                            <h1 class="text-xl lg:text-2xl mt-3 text-[#131318] font-extrabold lg:w-1/2">World Cup Flags Football!</h1>
+                            <p class=" py-4 lg:py-6 font-medium text-gray-600">Elevate your fan experience with our exclusive
+                                World Cup Flags Hockey Jersey collection, showcasing your team pride in style.</p>
+
+                            <div class="flex flex-col lg:flex-grow lg:justify-between">
+                                <p class="text-primary-color font-extrabold text-xl lg:text-2xl">Price - $22.00</p>
+                                <p> <i class="fa-solid fa-cart-shopping text-gray-400 pr-2"></i>
+                                    <span class="text-gray-400 font-medium text-xl">Delivery Fee : Free</span></p>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero lg:w-full lg:h-3/4">
+                    <div class="hero-content flex-col lg:flex-row border-2 rounded-2xl px-10 py-6">
+
+                        <img src="./Images/6.png" class="lg:max-w-sm w-full rounded-lg lg:shadow-2xl pb-3" />
+                        <div>
+                            <div class="inline space-x-1 text-gray-400 font-medium">
+                                <i class="fa-solid fa-star text-[#F99808] "></i>
+                                <span class="px-2">5.0</span>
+                                <i class="fa-regular fa-eye "><span class="px-2">20</span></i>
+                                <i class="fa-regular fa-heart "><span class="px-2">200</span></i>
+                            </div>
+                            <h1 class="text-xl lg:text-2xl mt-3 text-[#131318] font-extrabold lg:w-1/2">World Cup Flags Football!</h1>
+                            <p class=" py-4 lg:py-6 font-medium text-gray-600">Elevate your fan experience with our exclusive
+                                World Cup Flags Hockey Jersey collection, showcasing your team pride in style.</p>
+
+                            <div class="flex flex-col lg:flex-grow lg:justify-between">
+                                <p class="text-primary-color font-extrabold text-xl lg:text-2xl">Price - $22.00</p>
+                                <p> <i class="fa-solid fa-cart-shopping text-gray-400 pr-2"></i>
+                                    <span class="text-gray-400 font-medium text-xl">Delivery Fee : Free</span></p>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero lg:w-full lg:h-3/4">
+                    <div class="hero-content flex-col lg:flex-row border-2 rounded-2xl px-10 py-6">
+
+                        <img src="./Images/7.png" class="lg:max-w-sm w-full rounded-lg lg:shadow-2xl pb-3" />
+                        <div>
+                            <div class="inline space-x-1 text-gray-400 font-medium">
+                                <i class="fa-solid fa-star text-[#F99808] "></i>
+                                <span class="px-2">5.0</span>
+                                <i class="fa-regular fa-eye "><span class="px-2">20</span></i>
+                                <i class="fa-regular fa-heart "><span class="px-2">200</span></i>
+                            </div>
+                            <h1 class="text-xl lg:text-2xl mt-3 text-[#131318] font-extrabold lg:w-1/2">World Cup Flags Football!</h1>
+                            <p class=" py-4 lg:py-6 font-medium text-gray-600">Elevate your fan experience with our exclusive
+                                World Cup Flags Hockey Jersey collection, showcasing your team pride in style.</p>
+
+                            <div class="flex flex-col lg:flex-grow lg:justify-between">
+                                <p class="text-primary-color font-extrabold text-xl lg:text-2xl">Price - $22.00</p>
+                                <p> <i class="fa-solid fa-cart-shopping text-gray-400 pr-2"></i>
+                                    <span class="text-gray-400 font-medium text-xl">Delivery Fee : Free</span></p>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero lg:w-full lg:h-3/4">
+                    <div class="hero-content flex-col lg:flex-row border-2 rounded-2xl px-10 py-6">
+
+                        <img src="./Images/8.png" class="lg:max-w-sm w-full rounded-lg lg:shadow-2xl pb-3" />
+                        <div>
+                            <div class="inline space-x-1 text-gray-400 font-medium">
+                                <i class="fa-solid fa-star text-[#F99808] "></i>
+                                <span class="px-2">5.0</span>
+                                <i class="fa-regular fa-eye "><span class="px-2">20</span></i>
+                                <i class="fa-regular fa-heart "><span class="px-2">200</span></i>
+                            </div>
+                            <h1 class="text-xl lg:text-2xl mt-3 text-[#131318] font-extrabold lg:w-1/2">World Cup Flags Football!</h1>
+                            <p class=" py-4 lg:py-6 font-medium text-gray-600">Elevate your fan experience with our exclusive
+                                World Cup Flags Hockey Jersey collection, showcasing your team pride in style.</p>
+
+                            <div class="flex flex-col lg:flex-grow lg:justify-between">
+                                <p class="text-primary-color font-extrabold text-xl lg:text-2xl">Price - $22.00</p>
+                                <p> <i class="fa-solid fa-cart-shopping text-gray-400 pr-2"></i>
+                                    <span class="text-gray-400 font-medium text-xl">Delivery Fee : Free</span></p>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero lg:w-full lg:h-3/4">
+                    <div class="hero-content flex-col lg:flex-row border-2 rounded-2xl px-10 py-6">
+
+                        <img src="./Images/9.png" class="lg:max-w-sm w-full rounded-lg lg:shadow-2xl pb-3" />
+                        <div>
+                            <div class="inline space-x-1 text-gray-400 font-medium">
+                                <i class="fa-solid fa-star text-[#F99808] "></i>
+                                <span class="px-2">5.0</span>
+                                <i class="fa-regular fa-eye "><span class="px-2">20</span></i>
+                                <i class="fa-regular fa-heart "><span class="px-2">200</span></i>
+                            </div>
+                            <h1 class="text-xl lg:text-2xl mt-3 text-[#131318] font-extrabold lg:w-1/2">World Cup Flags Football!</h1>
+                            <p class=" py-4 lg:py-6 font-medium text-gray-600">Elevate your fan experience with our exclusive
+                                World Cup Flags Hockey Jersey collection, showcasing your team pride in style.</p>
+
+                            <div class="flex flex-col lg:flex-grow lg:justify-between">
+                                <p class="text-primary-color font-extrabold text-xl lg:text-2xl">Price - $22.00</p>
+                                <p> <i class="fa-solid fa-cart-shopping text-gray-400 pr-2"></i>
+                                    <span class="text-gray-400 font-medium text-xl">Delivery Fee : Free</span></p>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero lg:w-full lg:h-3/4">
+                    <div class="hero-content flex-col lg:flex-row border-2 rounded-2xl px-10 py-6">
+
+                        <img src="./Images/10.png" class="lg:max-w-sm w-full rounded-lg lg:shadow-2xl pb-3" />
+                        <div>
+                            <div class="inline space-x-1 text-gray-400 font-medium">
+                                <i class="fa-solid fa-star text-[#F99808] "></i>
+                                <span class="px-2">5.0</span>
+                                <i class="fa-regular fa-eye "><span class="px-2">20</span></i>
+                                <i class="fa-regular fa-heart "><span class="px-2">200</span></i>
+                            </div>
+                            <h1 class="text-xl lg:text-2xl mt-3 text-[#131318] font-extrabold lg:w-1/2">World Cup Flags Football!</h1>
+                            <p class=" py-4 lg:py-6 font-medium text-gray-600">Elevate your fan experience with our exclusive
+                                World Cup Flags Hockey Jersey collection, showcasing your team pride in style.</p>
+
+                            <div class="flex flex-col lg:flex-grow lg:justify-between">
+                                <p class="text-primary-color font-extrabold text-xl lg:text-2xl">Price - $22.00</p>
+                                <p> <i class="fa-solid fa-cart-shopping text-gray-400 pr-2"></i>
+                                    <span class="text-gray-400 font-medium text-xl">Delivery Fee : Free</span></p>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
