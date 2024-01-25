@@ -20,6 +20,12 @@
     <style>
         .font-manrope {
             font-family: 'Manrope', sans-serif;
+        } 
+
+        .banner-image 
+        {
+            background-image: url("./Images/11.png");
+            border-radius: 16px;
         }
     </style>
 
@@ -65,7 +71,7 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold">Hockey<span
+                <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold gap-0">Hockey<span
                         class="text-primary-color">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
@@ -99,51 +105,44 @@
         <!-- navbar end-->
 
         <!-- banner section start -->
-        <section class="mt-16">
-
+        <section class="mx-4 mt-6 lg:mt-12">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full h-1/2">
-                    <img src="./Images/1.png" class="w-full" />
-                    <div
-                        class="absolute flex justify-start mt-64  transform -translate-y-1/2 left-5 right-5 top-1/2 space-x-4">
-                        <a href="#slide4" class="btn btn-circle bg-[#131318] text-white">❮</a>
-                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
-                    </div>
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="./Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-center lg:justify-start gap-3 transform -translate-y-1/2 left-5 right-5  bottom-8  ">
+                    <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                  </div>
+                </div> 
+              
+                <div id="slide2" class="carousel-item relative w-full ">
+                  <img src="./Images/banner-2.jpg" class="w-full rounded-2xl" />
+                  <div class="absolute flex justify-center lg:justify-start gap-3 transform -translate-y-1/2  left-5 right-5  bottom-8">
+                    <a href="#slide1" class="btn btn-circle bg-[#131318] text-white">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-[#131318] text-white">❯</a>
+                  </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="./Images/2.png" class="w-full" />
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
+              </div>
 
-                <div class="text-white bg-[#131318] absolute rounded-xl w-full p-4 mt-6 lg:w-1/2 lg:-mb-64">
-                    <h4 class="text-xl lg:text-2xl font-extrabold mb-2 lg:mb-4 ">Meet all the heroes from the field
-                    </h4>
-                    <p class="lg:text-xl font-medium text-common-text-color">Explore the roster of extraordinary
-                        hockey
-                        heroes who redefine the game
-                        with their prowess on the field, embodying the spirit of excellence and teamwork that makes
-                        every
-                        match a thrilling spectacle.</p>
-                </div>
-
+              <div class="text-white bg-[#131318] absolute rounded-2xl w-[358px]  p-4 mt-6 lg:w-2/5 lg:p-8 lg:-mt-60 lg:right-72">
+                <h4 class="text-xl lg:text-2xl font-extrabold mb-2 lg:mb-4 ">Meet all the heroes from the field</h4>
+                <p class="lg:text-xl font-medium text-[#FFFFFF99]">Explore the roster of extraordinary hockey heroes who redefine the game
+                    with their prowess on the field, embodying the spirit of excellence and teamwork that makes every
+                    match a thrilling spectacle</p>
             </div>
-
         </section>
         <!-- banner end -->
     </header>
     <!-- header end -->
 
-    <main class="container lg:mx-auto">
+    <main class="mt-52 lg:mt-16 container lg:mx-auto">
         <!-- professional hockey's club section -->
 
         <section class=" pt-9 lg:pt-20 mx-6">
 
             <div class="text-center border-y border-dashed border-gray-300">
                 <h2 class="text-2xl mb-4 lg:text-4xl font-extrabold lg:mb-6 pt-8">Professional Hockeys Club</h2>
-                <p class="font-medium pb-4 lg:w-1/2 lg:mx-96 text-gray-600 lg:pb-8">Embark on an extraordinary journey
+                <p class="font-medium pb-4  lg:mx-64 text-gray-600 lg:pb-8">Embark on an extraordinary journey
                     with our
                     Professional Hockey Club, where skill
                     and dedication converge to redefine the sport. Join a community of champions, united by a shared
@@ -213,7 +212,7 @@
         <section class="pt-16 mx-4">
             <div class="text-center border-y border-dashed border-gray-300 p-5 lg:p-8">
                 <h2 class=" text-2xl lg:text-3xl font-extrabold text-[#131318] mb-4">Program Sections</h2>
-                <p class="text-gray-600 font-medium px-8 lg:px-96">Explore our diverse program sections tailored to
+                <p class="text-gray-600 font-medium px-8 lg:px-64">Explore our diverse program sections tailored to
                     cultivate
                     skills, foster teamwork, and propel players
                     through a comprehensive journey of development in the exhilarating realm of hockey.</p>
@@ -277,7 +276,7 @@
         <section class="pt-16 mx-4">
             <div class="text-center border-y border-dashed border-gray-300 p-5 lg:p-8">
                 <h2 class=" text-2xl lg:text-3xl font-extrabold text-[#131318] mb-4">Our New Products</h2>
-                <p class="text-gray-600 font-medium text-xl px-8 lg:px-96">Explore the latest additions to our lineup,
+                <p class="text-gray-600 font-medium text-xl px-4 lg:px-64">Explore the latest additions to our lineup,
                     where
                     cutting-edge technology meets the demands of the modern game. Our new products redefine performance
                     and style, ensuring you're geared up to dominate every moment on the hockey arena.
@@ -478,10 +477,10 @@
 
         <!-- clients Question -->
 
-        <section class="mt-8 lg:mt-12 mx-4">
+        <section class="pt-16 lg:mt-12 mx-4">
             <div class="text-center border-y border-dashed border-gray-300 p-2 lg:p-8">
                 <h2 class=" text-xl lg:text-3xl font-extrabold text-[#131318] mb-4 mt-4">Clients Question</h2>
-                <p class="text-gray-600 font-medium lg:px-96">Discover the answers to all your client queries with
+                <p class="text-gray-600 font-medium lg:px-64 mb-4 text-xl">Discover the answers to all your client queries with
                     our comprehensive Clients Question section, providing insights and assistance to ensure a seamless
                     experience.</p>
             </div>
@@ -499,8 +498,8 @@
                         </div>
                         <div class="collapse-content">
                             <p class="text-gray-600">
-                                "Gear up for victory with our premium hockey equipment collection, meticulously crafted
-                                for performance excellence on the ice where precision meets power."</p>
+                                Gear up for victory with our premium hockey equipment collection, meticulously crafted
+                                for performance excellence on the ice where precision meets power.</p>
                         </div>
                     </div>
                     <div class="collapse collapse-plus border-y">
@@ -571,7 +570,7 @@
         <section class="mt-8 lg:mt-12 mx-4">
             <div class="text-center border-y border-dashed border-gray-300 p-2 lg:p-8">
                 <h2 class=" text-xl lg:text-3xl font-extrabold text-[#131318] mb-4 mt-4">Get In Touch</h2>
-                <p class="text-gray-600 font-medium px-9 lg:px-64">Connect with the pulse of hockey passion – Get In
+                <p class="text-gray-600 font-medium px-9 lg:px-64">Connect with the pulse of hockey passion Get In
                     Touch
                     and stay in the game with our thrilling updates and insights on the coolest sport on ice.</p>
             </div>
@@ -645,7 +644,7 @@
 
 
             </div>
-            <div class="lg:w-full bg-[#13131805] text-center mt-2 lg:mt-12 rounded-lg mb-20">
+            <div class="lg:w-full bg-[#13131805] text-center mt-2 lg:mt-12 rounded-lg mb-8 lg:mb-12">
                 <p class="text-2xl font-extrabold p-3 lg:p-6">Social Media</p>
                 <div class="inline text-xl lg:text-2xl  ">
                     <i class="fa-brands fa-twitter pr-4 lg:pb-4"></i>
@@ -673,8 +672,8 @@
                     </div></p>
         </nav>
       </div> 
-        <div class="flex flex-cols-2  flex-wrap lg:flex-row lg:gap-32 ">
-            <nav class="text-[#ffffff99] flex flex-col gap-2 mx-7 flex-1">
+        <div class="flex flex-cols-2 flex-wrap lg:flex-nowrap lg:flex-row lg:gap-32 ">
+            <nav class="text-[#ffffff99] flex flex-col gap-2 mx-7 flex-1 mt-2 ">
                 <header class="text-white font-bold text-center">Company</header>
                 <a class="link link-hover text-center">About Us</a>
                 <a class="link link-hover text-center">Leadership</a>
@@ -682,14 +681,14 @@
                 <a class="link link-hover text-center">News & Article</a>
                 <a class="link link-hover text-center">Legal Notice</a>
             </nav>
-            <nav class="text-[#ffffff99] flex flex-col gap-2 flex-1">
+            <nav class="text-[#ffffff99] flex flex-col gap-2 mx-7 mt-2 flex-1">
                 <header class="text-white font-bold text-center">Support</header>
                 <a class="link link-hover text-center">Help Center</a>
                 <a class="link link-hover text-center">FAQ</a>
                 <a class="link link-hover text-center">Ticket Support</a>
                 <a class="link link-hover text-center">Contact Us</a>
             </nav>
-            <nav class="text-[#ffffff99] flex flex-col gap-2 ml-28 mt-6 justify-center">
+            <nav class="text-[#ffffff99] flex flex-col gap-2 ml-28 lg:ml-4 mt-6 lg:mt-2 justify-center ">
                 <header class="text-white font-bold text-center">Services</header>
                 <a class="link link-hover text-center">Academy</a>
                 <a class="link link-hover text-center">Group Lesson</a>
